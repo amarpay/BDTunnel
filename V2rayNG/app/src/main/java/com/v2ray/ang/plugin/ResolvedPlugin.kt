@@ -19,15 +19,15 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.v2ray.ang.plugin
+package com.bdtunnel.android.plugin
 
 import android.content.pm.ComponentInfo
 import android.content.pm.PackageManager
 import android.content.pm.ResolveInfo
 import android.graphics.drawable.Drawable
 import android.os.Build
-import com.v2ray.ang.AngApplication
-import com.v2ray.ang.plugin.PluginManager.loadString
+import com.bdtunnel.android.AngApplication
+import com.bdtunnel.android.plugin.PluginManager.loadString
 
 abstract class ResolvedPlugin(protected val resolveInfo: ResolveInfo) : Plugin() {
     protected abstract val componentInfo: ComponentInfo

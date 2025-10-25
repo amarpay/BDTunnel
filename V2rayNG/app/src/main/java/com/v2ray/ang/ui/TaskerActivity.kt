@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -9,10 +9,10 @@ import android.view.MenuItem
 import android.view.View
 import android.widget.ArrayAdapter
 import android.widget.ListView
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityTaskerBinding
-import com.v2ray.ang.handler.MmkvManager
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.R
+import com.bdtunnel.android.databinding.ActivityTaskerBinding
+import com.bdtunnel.android.handler.MmkvManager
 
 class TaskerActivity : BaseActivity() {
     private val binding by lazy { ActivityTaskerBinding.inflate(layoutInflater) }

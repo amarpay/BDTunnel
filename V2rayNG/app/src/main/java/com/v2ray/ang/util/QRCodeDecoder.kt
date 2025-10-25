@@ -1,4 +1,4 @@
-package com.v2ray.ang.util
+package com.bdtunnel.android.util
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory

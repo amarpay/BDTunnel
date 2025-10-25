@@ -1,9 +1,9 @@
-package com.v2ray.ang.fmt
+package com.bdtunnel.android.fmt
 
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.V2rayConfig
-import com.v2ray.ang.util.JsonUtil
+import com.bdtunnel.android.dto.EConfigType
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.dto.V2rayConfig
+import com.bdtunnel.android.util.JsonUtil
 
 object CustomFmt : FmtBase() {
     /**

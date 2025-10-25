@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.bdtunnel.android.service
 
 import android.content.BroadcastReceiver
 import android.content.Context
@@ -11,11 +11,11 @@ import android.service.quicksettings.TileService
 import android.util.Log
 import androidx.annotation.RequiresApi
 import androidx.core.content.ContextCompat
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.handler.V2RayServiceManager
-import com.v2ray.ang.util.MessageUtil
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.R
+import com.bdtunnel.android.handler.V2RayServiceManager
+import com.bdtunnel.android.util.MessageUtil
+import com.bdtunnel.android.util.Utils
 import java.lang.ref.SoftReference
 
 @RequiresApi(Build.VERSION_CODES.N)

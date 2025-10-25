@@ -1,8 +1,8 @@
-package com.v2ray.ang.dto
+package com.bdtunnel.android.dto
 
 import com.google.gson.annotations.SerializedName
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.util.Utils
 
 data class V2rayConfig(
     var remarks: String? = null,

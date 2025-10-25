@@ -1,27 +1,27 @@
-package com.v2ray.ang.handler
+package com.bdtunnel.android.handler
 
 import android.content.Context
 import android.graphics.Bitmap
 import android.text.TextUtils
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.HY2
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.fmt.CustomFmt
-import com.v2ray.ang.fmt.Hysteria2Fmt
-import com.v2ray.ang.fmt.ShadowsocksFmt
-import com.v2ray.ang.fmt.SocksFmt
-import com.v2ray.ang.fmt.TrojanFmt
-import com.v2ray.ang.fmt.VlessFmt
-import com.v2ray.ang.fmt.VmessFmt
-import com.v2ray.ang.fmt.WireguardFmt
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.QRCodeDecoder
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.AppConfig.HY2
+import com.bdtunnel.android.R
+import com.bdtunnel.android.dto.EConfigType
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.dto.SubscriptionItem
+import com.bdtunnel.android.fmt.CustomFmt
+import com.bdtunnel.android.fmt.Hysteria2Fmt
+import com.bdtunnel.android.fmt.ShadowsocksFmt
+import com.bdtunnel.android.fmt.SocksFmt
+import com.bdtunnel.android.fmt.TrojanFmt
+import com.bdtunnel.android.fmt.VlessFmt
+import com.bdtunnel.android.fmt.VmessFmt
+import com.bdtunnel.android.fmt.WireguardFmt
+import com.bdtunnel.android.util.HttpUtil
+import com.bdtunnel.android.util.JsonUtil
+import com.bdtunnel.android.util.QRCodeDecoder
+import com.bdtunnel.android.util.Utils
 import java.net.URI
 
 object AngConfigManager {

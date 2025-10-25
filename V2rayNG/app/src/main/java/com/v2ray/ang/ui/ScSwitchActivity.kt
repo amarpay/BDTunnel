@@ -1,8 +1,8 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.os.Bundle
-import com.v2ray.ang.R
-import com.v2ray.ang.handler.V2RayServiceManager
+import com.bdtunnel.android.R
+import com.bdtunnel.android.handler.V2RayServiceManager
 
 class ScSwitchActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

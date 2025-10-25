@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.bdtunnel.android.service
 
 import android.app.Service
 import android.content.Context
@@ -15,15 +15,15 @@ import android.os.ParcelFileDescriptor
 import android.os.StrictMode
 import android.util.Log
 import androidx.annotation.RequiresApi
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.LOOPBACK
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.NotificationManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.handler.V2RayServiceManager
-import com.v2ray.ang.util.MyContextWrapper
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.AppConfig.LOOPBACK
+import com.bdtunnel.android.BuildConfig
+import com.bdtunnel.android.handler.MmkvManager
+import com.bdtunnel.android.handler.NotificationManager
+import com.bdtunnel.android.handler.SettingsManager
+import com.bdtunnel.android.handler.V2RayServiceManager
+import com.bdtunnel.android.util.MyContextWrapper
+import com.bdtunnel.android.util.Utils
 import java.lang.ref.SoftReference
 
 class V2RayVpnService : VpnService(), ServiceControl {

@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.annotation.SuppressLint
 import android.content.Intent
@@ -8,14 +8,14 @@ import android.view.MenuItem
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivitySubSettingBinding
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.extension.toastError
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.AngConfigManager
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.helper.SimpleItemTouchHelperCallback
+import com.bdtunnel.android.R
+import com.bdtunnel.android.databinding.ActivitySubSettingBinding
+import com.bdtunnel.android.dto.SubscriptionItem
+import com.bdtunnel.android.extension.toastError
+import com.bdtunnel.android.extension.toastSuccess
+import com.bdtunnel.android.handler.AngConfigManager
+import com.bdtunnel.android.handler.MmkvManager
+import com.bdtunnel.android.helper.SimpleItemTouchHelperCallback
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.launch

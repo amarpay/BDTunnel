@@ -1,4 +1,4 @@
-package com.v2ray.ang.handler
+package com.bdtunnel.android.handler
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -11,12 +11,12 @@ import android.graphics.Color
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.extension.toSpeedString
-import com.v2ray.ang.handler.V2RayServiceManager
-import com.v2ray.ang.ui.MainActivity
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.R
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.extension.toSpeedString
+import com.bdtunnel.android.handler.V2RayServiceManager
+import com.bdtunnel.android.ui.MainActivity
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.Job

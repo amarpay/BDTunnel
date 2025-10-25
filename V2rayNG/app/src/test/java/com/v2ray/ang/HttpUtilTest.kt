@@ -1,6 +1,6 @@
-package com.v2ray.ang
+package com.bdtunnel.android
 
-import com.v2ray.ang.util.HttpUtil
+import com.bdtunnel.android.util.HttpUtil
 import org.junit.Assert.assertEquals
 import org.junit.Test
 

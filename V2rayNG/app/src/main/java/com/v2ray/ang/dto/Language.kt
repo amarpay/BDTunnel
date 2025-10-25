@@ -1,4 +1,4 @@
-package com.v2ray.ang.dto
+package com.bdtunnel.android.dto
 
 enum class Language(val code: String) {
     AUTO("auto"),

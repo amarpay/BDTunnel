@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -12,23 +12,23 @@ import android.widget.LinearLayout
 import android.widget.Spinner
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.DEFAULT_PORT
-import com.v2ray.ang.AppConfig.PREF_ALLOW_INSECURE
-import com.v2ray.ang.AppConfig.REALITY
-import com.v2ray.ang.AppConfig.TLS
-import com.v2ray.ang.AppConfig.WIREGUARD_LOCAL_ADDRESS_V4
-import com.v2ray.ang.AppConfig.WIREGUARD_LOCAL_MTU
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.NetworkType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.AppConfig.DEFAULT_PORT
+import com.bdtunnel.android.AppConfig.PREF_ALLOW_INSECURE
+import com.bdtunnel.android.AppConfig.REALITY
+import com.bdtunnel.android.AppConfig.TLS
+import com.bdtunnel.android.AppConfig.WIREGUARD_LOCAL_ADDRESS_V4
+import com.bdtunnel.android.AppConfig.WIREGUARD_LOCAL_MTU
+import com.bdtunnel.android.R
+import com.bdtunnel.android.dto.EConfigType
+import com.bdtunnel.android.dto.NetworkType
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.extension.isNotNullEmpty
+import com.bdtunnel.android.extension.toast
+import com.bdtunnel.android.extension.toastSuccess
+import com.bdtunnel.android.handler.MmkvManager
+import com.bdtunnel.android.util.JsonUtil
+import com.bdtunnel.android.util.Utils
 
 class ServerActivity : BaseActivity() {
 

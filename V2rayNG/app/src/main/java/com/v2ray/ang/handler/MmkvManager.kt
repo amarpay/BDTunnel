@@ -1,15 +1,15 @@
-package com.v2ray.ang.handler
+package com.bdtunnel.android.handler
 
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig.PREF_IS_BOOTED
-import com.v2ray.ang.AppConfig.PREF_ROUTING_RULESET
-import com.v2ray.ang.dto.AssetUrlItem
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.RulesetItem
-import com.v2ray.ang.dto.ServerAffiliationInfo
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig.PREF_IS_BOOTED
+import com.bdtunnel.android.AppConfig.PREF_ROUTING_RULESET
+import com.bdtunnel.android.dto.AssetUrlItem
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.dto.RulesetItem
+import com.bdtunnel.android.dto.ServerAffiliationInfo
+import com.bdtunnel.android.dto.SubscriptionItem
+import com.bdtunnel.android.util.JsonUtil
+import com.bdtunnel.android.util.Utils
 
 object MmkvManager {
 

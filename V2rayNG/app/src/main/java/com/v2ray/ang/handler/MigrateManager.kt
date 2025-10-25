@@ -1,15 +1,15 @@
-package com.v2ray.ang.handler
+package com.bdtunnel.android.handler
 
 import android.util.Log
 import com.tencent.mmkv.MMKV
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.NetworkType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.ServerConfig
-import com.v2ray.ang.extension.removeWhiteSpace
-import com.v2ray.ang.handler.MmkvManager.decodeServerConfig
-import com.v2ray.ang.util.JsonUtil
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.dto.EConfigType
+import com.bdtunnel.android.dto.NetworkType
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.dto.ServerConfig
+import com.bdtunnel.android.extension.removeWhiteSpace
+import com.bdtunnel.android.handler.MmkvManager.decodeServerConfig
+import com.bdtunnel.android.util.JsonUtil
 
 object MigrateManager {
     private const val ID_SERVER_CONFIG = "SERVER_CONFIG"

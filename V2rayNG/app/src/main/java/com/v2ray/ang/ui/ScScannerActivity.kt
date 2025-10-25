@@ -1,14 +1,14 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.Manifest
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.result.contract.ActivityResultContracts
-import com.v2ray.ang.R
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastError
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.AngConfigManager
+import com.bdtunnel.android.R
+import com.bdtunnel.android.extension.toast
+import com.bdtunnel.android.extension.toastError
+import com.bdtunnel.android.extension.toastSuccess
+import com.bdtunnel.android.handler.AngConfigManager
 
 class ScScannerActivity : BaseActivity() {
 

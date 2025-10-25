@@ -1,11 +1,11 @@
-package com.v2ray.ang.dto
+package com.bdtunnel.android.dto
 
-import com.v2ray.ang.AppConfig.LOOPBACK
-import com.v2ray.ang.AppConfig.PORT_SOCKS
-import com.v2ray.ang.AppConfig.TAG_BLOCKED
-import com.v2ray.ang.AppConfig.TAG_DIRECT
-import com.v2ray.ang.AppConfig.TAG_PROXY
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig.LOOPBACK
+import com.bdtunnel.android.AppConfig.PORT_SOCKS
+import com.bdtunnel.android.AppConfig.TAG_BLOCKED
+import com.bdtunnel.android.AppConfig.TAG_DIRECT
+import com.bdtunnel.android.AppConfig.TAG_PROXY
+import com.bdtunnel.android.util.Utils
 
 data class ProfileItem(
     val configVersion: Int = 4,

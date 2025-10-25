@@ -17,7 +17,7 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.v2ray.ang.plugin
+package com.bdtunnel.android.plugin
 
 object PluginContract {
 

@@ -19,7 +19,7 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.v2ray.ang.plugin
+package com.bdtunnel.android.plugin
 
 import android.content.pm.ResolveInfo
 

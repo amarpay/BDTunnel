@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -8,16 +8,16 @@ import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import com.blacksquircle.ui.editorkit.utils.EditorTheme
 import com.blacksquircle.ui.language.json.JsonLanguage
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityServerCustomConfigBinding
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.fmt.CustomFmt
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.R
+import com.bdtunnel.android.databinding.ActivityServerCustomConfigBinding
+import com.bdtunnel.android.dto.EConfigType
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.extension.toast
+import com.bdtunnel.android.extension.toastSuccess
+import com.bdtunnel.android.fmt.CustomFmt
+import com.bdtunnel.android.handler.MmkvManager
+import com.bdtunnel.android.util.Utils
 
 class ServerCustomConfigActivity : BaseActivity() {
     private val binding by lazy { ActivityServerCustomConfigBinding.inflate(layoutInflater) }

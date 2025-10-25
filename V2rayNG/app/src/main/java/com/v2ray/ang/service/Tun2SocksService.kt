@@ -1,14 +1,14 @@
-package com.v2ray.ang.service
+package com.bdtunnel.android.service
 
 import android.content.Context
 import android.net.LocalSocket
 import android.net.LocalSocketAddress
 import android.os.ParcelFileDescriptor
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.handler.MmkvManager
+import com.bdtunnel.android.handler.SettingsManager
+import com.bdtunnel.android.util.Utils
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch

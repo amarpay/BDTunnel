@@ -19,7 +19,7 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.v2ray.ang.plugin
+package com.bdtunnel.android.plugin
 
 import android.annotation.SuppressLint
 import android.content.BroadcastReceiver
@@ -33,10 +33,10 @@ import android.net.Uri
 import android.os.Build
 import android.system.Os
 import androidx.core.os.bundleOf
-import com.v2ray.ang.AngApplication
-import com.v2ray.ang.extension.listenForPackageChanges
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.plugin.PluginContract.METADATA_KEY_ID
+import com.bdtunnel.android.AngApplication
+import com.bdtunnel.android.extension.listenForPackageChanges
+import com.bdtunnel.android.extension.toast
+import com.bdtunnel.android.plugin.PluginContract.METADATA_KEY_ID
 import java.io.File
 import java.io.FileNotFoundException
 

@@ -1,4 +1,4 @@
-package com.v2ray.ang.service
+package com.bdtunnel.android.service
 
 /**
  * Interface that defines the control operations for tun2socks implementations.

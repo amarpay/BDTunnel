@@ -19,11 +19,11 @@
  *                                                                            *
  ******************************************************************************/
 
-package com.v2ray.ang.plugin
+package com.bdtunnel.android.plugin
 
 import android.content.Intent
 import android.content.pm.PackageManager
-import com.v2ray.ang.AngApplication
+import com.bdtunnel.android.AngApplication
 
 class PluginList : ArrayList<Plugin>() {
     init {

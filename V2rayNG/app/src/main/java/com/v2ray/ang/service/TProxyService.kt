@@ -1,11 +1,11 @@
-package com.v2ray.ang.service
+package com.bdtunnel.android.service
 
 import android.content.Context
 import android.os.ParcelFileDescriptor
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.handler.MmkvManager
+import com.bdtunnel.android.handler.SettingsManager
 import java.io.File
 
 /**

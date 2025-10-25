@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.Manifest
 import android.annotation.SuppressLint
@@ -12,18 +12,18 @@ import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.ItemTouchHelper
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityRoutingSettingBinding
-import com.v2ray.ang.dto.RulesetItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastError
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.helper.SimpleItemTouchHelperCallback
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.R
+import com.bdtunnel.android.databinding.ActivityRoutingSettingBinding
+import com.bdtunnel.android.dto.RulesetItem
+import com.bdtunnel.android.extension.toast
+import com.bdtunnel.android.extension.toastError
+import com.bdtunnel.android.extension.toastSuccess
+import com.bdtunnel.android.handler.MmkvManager
+import com.bdtunnel.android.handler.SettingsManager
+import com.bdtunnel.android.helper.SimpleItemTouchHelperCallback
+import com.bdtunnel.android.util.JsonUtil
+import com.bdtunnel.android.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

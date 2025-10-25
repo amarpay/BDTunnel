@@ -1,6 +1,6 @@
-package com.v2ray.ang
+package com.bdtunnel.android
 
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.util.Utils
 import org.junit.Assert.assertEquals
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue

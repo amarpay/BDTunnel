@@ -1,15 +1,15 @@
-package com.v2ray.ang.handler
+package com.bdtunnel.android.handler
 
 import android.content.Context
 import android.os.SystemClock
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.fmt.Hysteria2Fmt
-import com.v2ray.ang.service.ProcessService
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.dto.EConfigType
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.fmt.Hysteria2Fmt
+import com.bdtunnel.android.service.ProcessService
+import com.bdtunnel.android.util.JsonUtil
+import com.bdtunnel.android.util.Utils
 import java.io.File
 
 object PluginServiceManager {

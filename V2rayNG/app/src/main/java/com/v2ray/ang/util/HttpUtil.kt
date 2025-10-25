@@ -1,11 +1,11 @@
-package com.v2ray.ang.util
+package com.bdtunnel.android.util
 
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.LOOPBACK
-import com.v2ray.ang.BuildConfig
-import com.v2ray.ang.util.Utils.encode
-import com.v2ray.ang.util.Utils.urlDecode
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.AppConfig.LOOPBACK
+import com.bdtunnel.android.BuildConfig
+import com.bdtunnel.android.util.Utils.encode
+import com.bdtunnel.android.util.Utils.urlDecode
 import java.io.IOException
 import java.net.HttpURLConnection
 import java.net.IDN

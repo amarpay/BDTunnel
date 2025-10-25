@@ -1,6 +1,6 @@
-package com.v2ray.ang.dto
+package com.bdtunnel.android.dto
 
-import com.v2ray.ang.AppConfig
+import com.bdtunnel.android.AppConfig
 
 
 enum class EConfigType(val value: Int, val protocolScheme: String) {

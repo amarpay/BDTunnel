@@ -1,4 +1,4 @@
-package com.v2ray.ang.dto
+package com.bdtunnel.android.dto
 
 enum class RoutingType(val fileName: String) {
     WHITE("custom_routing_white"),

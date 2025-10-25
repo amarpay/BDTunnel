@@ -1,12 +1,12 @@
-package com.v2ray.ang.fmt
+package com.bdtunnel.android.fmt
 
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.dto.NetworkType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.dto.NetworkType
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.extension.isNotNullEmpty
+import com.bdtunnel.android.handler.MmkvManager
+import com.bdtunnel.android.util.HttpUtil
+import com.bdtunnel.android.util.Utils
 import java.net.URI
 
 open class FmtBase {

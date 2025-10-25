@@ -1,12 +1,12 @@
-package com.v2ray.ang.fmt
+package com.bdtunnel.android.fmt
 
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.V2rayConfig.OutboundBean
-import com.v2ray.ang.extension.idnHost
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.handler.V2rayConfigManager
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.dto.EConfigType
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.dto.V2rayConfig.OutboundBean
+import com.bdtunnel.android.extension.idnHost
+import com.bdtunnel.android.extension.isNotNullEmpty
+import com.bdtunnel.android.handler.V2rayConfigManager
+import com.bdtunnel.android.util.Utils
 import java.net.URI
 
 object SocksFmt : FmtBase() {

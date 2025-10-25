@@ -1,16 +1,16 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.util.Log
 import androidx.lifecycle.lifecycleScope
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityLogcatBinding
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastError
-import com.v2ray.ang.handler.AngConfigManager
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.R
+import com.bdtunnel.android.databinding.ActivityLogcatBinding
+import com.bdtunnel.android.extension.toast
+import com.bdtunnel.android.extension.toastError
+import com.bdtunnel.android.handler.AngConfigManager
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext

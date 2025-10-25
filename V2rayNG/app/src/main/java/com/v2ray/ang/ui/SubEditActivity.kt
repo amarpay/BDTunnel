@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.os.Bundle
 import android.text.TextUtils
@@ -6,14 +6,14 @@ import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivitySubEditBinding
-import com.v2ray.ang.dto.SubscriptionItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.R
+import com.bdtunnel.android.databinding.ActivitySubEditBinding
+import com.bdtunnel.android.dto.SubscriptionItem
+import com.bdtunnel.android.extension.toast
+import com.bdtunnel.android.extension.toastSuccess
+import com.bdtunnel.android.handler.MmkvManager
+import com.bdtunnel.android.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

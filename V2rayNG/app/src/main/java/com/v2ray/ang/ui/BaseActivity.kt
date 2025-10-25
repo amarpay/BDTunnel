@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.content.Context
 import android.os.Build
@@ -10,10 +10,10 @@ import androidx.core.content.ContextCompat
 import androidx.core.view.WindowCompat
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.RecyclerView
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.helper.CustomDividerItemDecoration
-import com.v2ray.ang.util.MyContextWrapper
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.handler.SettingsManager
+import com.bdtunnel.android.helper.CustomDividerItemDecoration
+import com.bdtunnel.android.util.MyContextWrapper
+import com.bdtunnel.android.util.Utils
 
 
 abstract class BaseActivity : AppCompatActivity() {

@@ -1,32 +1,32 @@
-package com.v2ray.ang.handler
+package com.bdtunnel.android.handler
 
 import android.content.Context
 import android.text.TextUtils
 import android.util.Log
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.ConfigResult
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.NetworkType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.dto.RulesetItem
-import com.v2ray.ang.dto.V2rayConfig
-import com.v2ray.ang.dto.V2rayConfig.OutboundBean
-import com.v2ray.ang.dto.V2rayConfig.OutboundBean.OutSettingsBean
-import com.v2ray.ang.dto.V2rayConfig.OutboundBean.StreamSettingsBean
-import com.v2ray.ang.dto.V2rayConfig.RoutingBean.RulesBean
-import com.v2ray.ang.extension.isNotNullEmpty
-import com.v2ray.ang.fmt.CustomFmt
-import com.v2ray.ang.fmt.HttpFmt
-import com.v2ray.ang.fmt.ShadowsocksFmt
-import com.v2ray.ang.fmt.SocksFmt
-import com.v2ray.ang.fmt.TrojanFmt
-import com.v2ray.ang.fmt.VlessFmt
-import com.v2ray.ang.fmt.VmessFmt
-import com.v2ray.ang.fmt.WireguardFmt
-import com.v2ray.ang.util.HttpUtil
-import com.v2ray.ang.util.JsonUtil
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.R
+import com.bdtunnel.android.dto.ConfigResult
+import com.bdtunnel.android.dto.EConfigType
+import com.bdtunnel.android.dto.NetworkType
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.dto.RulesetItem
+import com.bdtunnel.android.dto.V2rayConfig
+import com.bdtunnel.android.dto.V2rayConfig.OutboundBean
+import com.bdtunnel.android.dto.V2rayConfig.OutboundBean.OutSettingsBean
+import com.bdtunnel.android.dto.V2rayConfig.OutboundBean.StreamSettingsBean
+import com.bdtunnel.android.dto.V2rayConfig.RoutingBean.RulesBean
+import com.bdtunnel.android.extension.isNotNullEmpty
+import com.bdtunnel.android.fmt.CustomFmt
+import com.bdtunnel.android.fmt.HttpFmt
+import com.bdtunnel.android.fmt.ShadowsocksFmt
+import com.bdtunnel.android.fmt.SocksFmt
+import com.bdtunnel.android.fmt.TrojanFmt
+import com.bdtunnel.android.fmt.VlessFmt
+import com.bdtunnel.android.fmt.VmessFmt
+import com.bdtunnel.android.fmt.WireguardFmt
+import com.bdtunnel.android.util.HttpUtil
+import com.bdtunnel.android.util.JsonUtil
+import com.bdtunnel.android.util.Utils
 
 object V2rayConfigManager {
     private var initConfigCache: String? = null

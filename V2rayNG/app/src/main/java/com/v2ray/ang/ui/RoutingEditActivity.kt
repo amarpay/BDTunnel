@@ -1,17 +1,17 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AlertDialog
 import androidx.lifecycle.lifecycleScope
-import com.v2ray.ang.R
-import com.v2ray.ang.databinding.ActivityRoutingEditBinding
-import com.v2ray.ang.dto.RulesetItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.extension.toastSuccess
-import com.v2ray.ang.handler.SettingsManager
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.R
+import com.bdtunnel.android.databinding.ActivityRoutingEditBinding
+import com.bdtunnel.android.dto.RulesetItem
+import com.bdtunnel.android.extension.toast
+import com.bdtunnel.android.extension.toastSuccess
+import com.bdtunnel.android.handler.SettingsManager
+import com.bdtunnel.android.util.Utils
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 

@@ -1,4 +1,4 @@
-package com.v2ray.ang.ui
+package com.bdtunnel.android.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -12,15 +12,15 @@ import androidx.preference.PreferenceFragmentCompat
 import androidx.work.ExistingPeriodicWorkPolicy
 import androidx.work.PeriodicWorkRequest
 import androidx.work.multiprocess.RemoteWorkManager
-import com.v2ray.ang.AngApplication
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.AppConfig.VPN
-import com.v2ray.ang.R
-import com.v2ray.ang.extension.toLongEx
-import com.v2ray.ang.handler.MmkvManager
-import com.v2ray.ang.handler.SubscriptionUpdater
-import com.v2ray.ang.util.Utils
-import com.v2ray.ang.viewmodel.SettingsViewModel
+import com.bdtunnel.android.AngApplication
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.AppConfig.VPN
+import com.bdtunnel.android.R
+import com.bdtunnel.android.extension.toLongEx
+import com.bdtunnel.android.handler.MmkvManager
+import com.bdtunnel.android.handler.SubscriptionUpdater
+import com.bdtunnel.android.util.Utils
+import com.bdtunnel.android.viewmodel.SettingsViewModel
 import java.util.concurrent.TimeUnit
 
 class SettingsActivity : BaseActivity() {

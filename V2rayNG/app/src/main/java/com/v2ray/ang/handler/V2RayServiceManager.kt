@@ -1,4 +1,4 @@
-package com.v2ray.ang.handler
+package com.bdtunnel.android.handler
 
 import android.app.Service
 import android.content.BroadcastReceiver
@@ -8,17 +8,17 @@ import android.content.IntentFilter
 import android.os.Build
 import android.util.Log
 import androidx.core.content.ContextCompat
-import com.v2ray.ang.AppConfig
-import com.v2ray.ang.R
-import com.v2ray.ang.dto.EConfigType
-import com.v2ray.ang.dto.ProfileItem
-import com.v2ray.ang.extension.toast
-import com.v2ray.ang.service.ServiceControl
-import com.v2ray.ang.service.V2RayProxyOnlyService
-import com.v2ray.ang.service.V2RayVpnService
-import com.v2ray.ang.util.MessageUtil
-import com.v2ray.ang.handler.PluginServiceManager
-import com.v2ray.ang.util.Utils
+import com.bdtunnel.android.AppConfig
+import com.bdtunnel.android.R
+import com.bdtunnel.android.dto.EConfigType
+import com.bdtunnel.android.dto.ProfileItem
+import com.bdtunnel.android.extension.toast
+import com.bdtunnel.android.service.ServiceControl
+import com.bdtunnel.android.service.V2RayProxyOnlyService
+import com.bdtunnel.android.service.V2RayVpnService
+import com.bdtunnel.android.util.MessageUtil
+import com.bdtunnel.android.handler.PluginServiceManager
+import com.bdtunnel.android.util.Utils
 import go.Seq
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
